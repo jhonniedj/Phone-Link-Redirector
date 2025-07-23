@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://outlook.office.com/calendar/"
+      }
+    },
+    "condition": {
+      "urlFilter": "bing.com/search?q=Calendar",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://web.whatsapp.com/"
+      }
+    },
+    "condition": {
+      "urlFilter": "bing.com/search?q=Whatsapp",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://mijn.ing.nl/login/"
+      }
+    },
+    "condition": {
+      "urlFilter": "bing.com/search?q=Bankieren",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://www.google.com/search?q=authenticator"
+      }
+    },
+    "condition": {
+      "urlFilter": "bing.com/search?q=Authenticator",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]

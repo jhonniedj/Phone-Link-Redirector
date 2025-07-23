@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Link Redirector</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <header>
+        <h1>Phone Link Redirector</h1>
+    </header>
+    <div class="container">
+        <div class="setting">
+            <span>🔗 Link Cleanup</span>
+            <label class="switch">
+                <input type="checkbox" id="urlRewriteEnabled" disabled>
+                <span class="slider"></span>
+            </label>
+            <div id="toast" class="hidden"></div>
+
+        </div>
+        <div class="setting">
+            <span style="color: #888; font-size: 0.95em;">
+                Link Cleanup is always enabled.<br>
+                To turn it off, disable this extension.
+                <br>
+                <div id="disableTxt"> </div>
+                <button id="copyLink">Copy link to extension
+                </button>
+            </span>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
