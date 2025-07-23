@@ -7,6 +7,9 @@ Simple. Fast. No nonsense.
 
 ---
 
+## ⚙️ TODO/Wishes
+- Prevent to open Whatsapp Chrome-Tabs/Windows when there is already one active, try to focus/go-to Chrome Tab/Windows with corresponding URL (for example https://web.whatsapp.com/)
+
 ## 🚀 What does this extension do?
 
 When you search on Bing for terms like:
@@ -119,3 +122,7 @@ This extension uses minimal permissions:
  }
 }
 ]
+
+
+
+
